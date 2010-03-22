@@ -1,6 +1,6 @@
  == Memphant ==
 
-    At first sight, the app look likes a chat manager, we have users, rooms and messages (posted by users), 
+    At first, the app look likes a chat manager, we have users, rooms and messages (posted by users), 
 but, otherwise of a free chat, the rooms of the app are directed to specific context like development 
 details of an app, best programming practices among others. So, upon this point of view, we have a domain 
 that approach a forum, but in a more simple and less bureaucratic way
