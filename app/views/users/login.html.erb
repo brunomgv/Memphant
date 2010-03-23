@@ -1,0 +1,17 @@
+<% form_tag authenticate_users_path do -%>
+	<%= flash[:message] %>
+	
+	<fieldset>
+	  <label>E-mail</label>
+	  <input type="text" name="user_email" id="user_email" /> 	
+	</fieldset>
+	
+	<fieldset>
+		<label>Password</label>
+		<input type="password" name="user_password" id="user_password">
+	</fieldset>
+	
+	<fieldset>
+		<input type="submit" name="access" value="Access" />
+	</fieldset>
+<% end -%>	
